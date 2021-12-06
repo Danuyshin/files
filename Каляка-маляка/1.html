@@ -1,0 +1,47 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/1.css">
+</head>
+<body>
+    <div class="all">
+        
+    <header class="title">Расчёт стоимости</header>
+    <p>Месяц
+    <select name="" id="months" class="select">
+        <option value="non"></option>
+        <option value="January">Январь</option>
+        <option value="February">Февраль</option>
+        <option value="March">Март</option>
+        <option value="April">Апрель</option>
+        <option value="May">Май</option>
+        <option value="June">Июнь</option>
+        <option value="July">Июль</option>
+        <option value="August">Август</option>
+        <option value="September">Сентябрь</option>
+        <option value="October">Октябрь</option>
+        <option value="November">Ноябрь</option>
+        <option value="December">Декабрь</option>
+    </select></p>
+    <p>Cтоимость 1 дня: <input type="text" class="priceout" disabled> </p>
+    <p>ФИО ребёнка<input type="text" class="names"></p>
+    <p>Количество дней<input type="number" class="days"></p>
+   <p>Дополнительная услуга
+    <select name="" class="option">
+        <option value="none"></option>
+        <option value="ball">Весёлый мяч</option>
+        <option value="cal-mal">Каляка-маляка</option>
+        <option value="vocals">Вокал</option>
+    </select></p>
+    <div class="buttons">
+    <button class="calc">Рассчитать</button>
+    <button class="clear">Очистить</button></div>
+    <div class="sum">
+    <p >Сумма к оплате за месяц <input type="text" class="out" disabled></p>
+</div>
+</div>
+<script src="js/1.js"></script>
+</body> 
+</html>

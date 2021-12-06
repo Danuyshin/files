@@ -1,0 +1,53 @@
+.all{
+    text-align: center;
+}
+.sum{
+   
+    display: none;
+    
+}
+.flex{
+    display: flex;
+    display: block;
+    margin:auto;
+}
+
+.title{
+    border: solid 1px black;
+    background-color: gray;
+    text-align: center;
+    height:20px;
+    color: lightgray;
+}
+.priceout{
+    border: solid 1px black;
+    margin-left: 63;
+    width:217;
+}
+.out{
+    border: solid 1px;
+    width:217;
+    margin-left:13px;
+}
+.select{
+    margin-left: 136px;
+    width: 217px;
+}
+.option{
+    margin-left:19px;
+    width:216px
+}
+.names{
+    margin-left: 92px;
+    width: 215px;
+}
+.days{
+    margin-left:69px;
+    width:216px
+}
+.buttons{
+    margin-left:185px;
+}
+.clear{
+    margin-left:52px;
+}
